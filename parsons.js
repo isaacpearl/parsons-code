@@ -30,16 +30,14 @@ function parsonsToPitches(parsons, start, scale=scales["CMaj"]) {
 			let instruction = parsons[i];
 			console.log(`instruction: ${instruction}`);
 			switch(instruction) {
-				case '*':
-					break;
 				case 'd':
 					toneInt -= stepSize;
-					break;
-				case 'r':
 					break;
 				case 'u':
 					toneInt += stepSize;
 					break;
+				case '*':
+				case 'r':
 				default:
 					break;
 			}
