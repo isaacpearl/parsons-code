@@ -1,0 +1,14 @@
+{
+  "name": "parsons-code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "parsons.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prompt": "^1.0.0"
+  }
+}
