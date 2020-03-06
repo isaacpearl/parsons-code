@@ -42,6 +42,7 @@ function parsonsToPitches(parsons, start, scale=scales["CMaj"]) {
 					break;
 			}
 			//TODO: increment/decrement register after applying instruction from parsons code
+			//TODO: print visual representation (example on wikipedia page)
 			console.log(`pitch: ${scale[toneInt % scale.length] + register}`);
 		}
 
